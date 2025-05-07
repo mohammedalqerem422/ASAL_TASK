@@ -71,3 +71,27 @@
     }
    }
 }
+
+@media screen and (max-width: 992px) {
+    /* media to header section */
+   header{
+
+       .container{
+        
+         img{
+            width: 100%;
+            margin-top: 40px;
+         }
+           &.flex{
+               flex-direction: column;
+               text-align: center  ;
+               
+            }
+            div{
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

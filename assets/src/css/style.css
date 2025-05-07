@@ -119,3 +119,43 @@ ul{
     }  
 
 }
+
+/* header section */
+
+
+
+header{
+  padding-top: 100px;
+  padding-bottom: 400px;
+  height: 100dvh;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .container{
+      margin-top: 50px;
+      &.flex{
+            
+          h1{
+              font-size:70px;
+              text-transform:uppercase;
+              margin-bottom: 40px;
+              span{
+                  color:var(--mainColor);
+              }
+          }
+         p{
+          margin-bottom: 50px;
+         }
+         a{
+          padding: 10px 30px 10px 30px;
+          color: white;
+          background-color:var(--mainColor) ;
+         }
+      }
+      img{
+          width: 55%;
+      }
+  }
+}

@@ -1,0 +1,121 @@
+*{
+    color:var(--textColor);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+ /* color of scroll bar */
+ body {
+    scrollbar-color: #888 #f1f1f1;
+    scrollbar-width: thin;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }  
+  ::-webkit-scrollbar-thumb {
+    background: var(--mainColor);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:var(--mainColor); 
+  }
+  
+
+/* general tages properites */
+
+a{
+    
+        text-decoration: none;
+        
+}
+
+/* Variable  */
+
+:root{
+    --mainColor:rgb(29, 164, 164);
+    --textColor:rgba(0, 0, 0, 0.747);
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ /* Navbar */
+
+nav{
+   
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    background-color:white;
+    box-shadow: 0 4px 6px -4px var(--mainColor);
+    img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 5%;
+    }
+    &.flex{
+        justify-content: space-around;
+    }
+    div{
+        
+            &.flex{
+                gap: 10px;
+            }
+        
+    }
+    input{
+        display: none;
+    }
+    label{
+        display: none;
+    }
+}
+
+ul{
+    list-style: none;
+   
+
+    &.flex{
+
+        gap: 30px;
+    }  
+
+}

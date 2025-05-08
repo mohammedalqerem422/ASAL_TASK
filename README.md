@@ -25,5 +25,5 @@ A modern and visually engaging book store website designed to showcase featured 
 
 ---
 
-## 📁 Folder Structure
+
 

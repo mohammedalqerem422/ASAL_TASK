@@ -159,3 +159,30 @@ header{
       }
   }
 }
+
+/* main seciton(boxes) */
+
+
+.boxes{
+     padding :50px;
+     width: 100%;
+    .container{
+      
+         &.flex{
+            gap: 50px;
+           
+         }
+         .box{
+           
+            padding: 20px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 0 10px var(--mainColor);            
+            i{
+                color: var(--mainColor);
+                font-size: 20px;
+            }
+         }
+
+     }
+    
+}

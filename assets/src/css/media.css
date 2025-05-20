@@ -94,6 +94,21 @@
             }
         }
     }
+      /* section boxes */
+    .boxes{
+        padding-top: 0;
+        .container{
+            &.flex{
+                flex-wrap: wrap;
+            }
+            .box{
+                width: 100%;
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
      /* section About */
 
     .aboutUs{

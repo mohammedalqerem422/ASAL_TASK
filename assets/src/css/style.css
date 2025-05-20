@@ -159,3 +159,38 @@ header{
       }
   }
 }
+
+
+/* About section */
+
+.aboutUs{
+    padding: 50px;
+    .container{
+       
+      &.flex{
+        
+        gap: 100px;
+      }
+
+        img{
+            width: 50%;
+        }
+        .textParaLnkAbout{
+            h2{
+                color: black;
+                font-weight: bolder;
+                font-size: 40px;
+            }
+            p{
+                
+                margin: 40px 0 40px 0;
+            }
+            a{
+            
+                padding: 10px 30px 10px 30px;
+                color: white;
+                background-color:var(--mainColor) ;
+               }
+        }
+    }
+}

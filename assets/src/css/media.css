@@ -119,4 +119,23 @@
             }
         }
     }
+    /* section About */
+
+    .aboutUs{
+        .container{
+            text-align: center;
+            &.flex{
+                flex-direction: column;
+            }
+            img{
+                width: 100%;
+            }
+            .textParaLnkAbout{
+                p{
+                    font-size: 22px;
+                }
+            }
+
+        }
+    }
 }

@@ -8,6 +8,163 @@
     
 }
 
+@media screen and (max-width: 1524px){
+   
+   /* section reviewsSection */
+
+   .reviewsSection{
+    .container{
+        flex-wrap: wrap;
+        .box{
+            padding: 60px;
+            p{
+                font-size: 30px;
+            }
+            h3{
+               font-size:50px ;
+            }
+            .starColor{
+                i{
+                      font-size: 40px;
+                }
+        }
+    }
+}
+    
+}
+
+/* Digital Book  */
+
+
+
+.digitalBook{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    a{
+        text-align: center;
+        width: 40%;
+        display:block;
+        margin-bottom: 190px;
+        padding: 10px 20px 10px 20px;
+        color: white;
+        background-color:var(--mainColor) ;
+        
+    }
+}
+
+   /* Blog section */
+
+
+.ourBlogSection{
+   .container{
+    .boxImages{
+        &.flex{
+            flex-wrap: wrap;
+        }
+        .boxImage{
+            .container{
+               
+                h3{
+                    font-size: 70px;
+                }
+                p{
+                    font-size: 30px;
+                }
+                .iconBolg{
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+   }
+}
+
+}
+
+
+@media screen and (max-width: 992px) {
+    /* media to header section */
+   header{
+
+       .container{
+        
+         img{
+            width: 100%;
+            margin-top: 40px;
+         }
+           &.flex{
+               flex-direction: column;
+               text-align: center  ;
+               
+            }
+            div{
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    /* end media header section */
+
+    
+    /* section boxes */
+    .boxes{
+        padding-top: 0;
+        .container{
+            &.flex{
+                flex-wrap: wrap;
+            }
+            .box{
+                width: 100%;
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    /* section About */
+
+    .aboutUs{
+        .container{
+            text-align: center;
+            &.flex{
+                flex-direction: column;
+            }
+            img{
+                width: 100%;
+            }
+            .textParaLnkAbout{
+                p{
+                    font-size: 22px;
+                }
+            }
+
+        }
+    }
+
+    /* section arrivalSection */
+    .arrivalSection{
+
+        .container{
+
+            .cards{
+                flex-wrap: wrap ;
+            
+            }
+        }
+    }
+
+    
+    
+
+        
+}
+ 
 @media  screen and (max-width: 700px) {
     /* navbar media */
 
@@ -80,62 +237,65 @@
         }
     }
    }
+   
+   /* end media of navbar */
+    
+
+   /* Digital Book  */
+
+   .digitalBook{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    a{
+        text-align: center;
+        display:block;
+        margin-bottom: 190px;
+        padding: 10px 50px 10px 40px;
+        color: white;
+        background-color:var(--mainColor) ;
+        
+    }
+}
+   
+
 }
 
-@media screen and (max-width: 992px) {
-    /* media to header section */
-   header{
-
-       .container{
-        
-         img{
-            width: 100%;
-            margin-top: 40px;
-         }
-           &.flex{
-               flex-direction: column;
-               text-align: center  ;
-               
-            }
-            div{
-                p{
-                    font-size: 22px;
-                }
-            }
-        }
-    }
-      /* section boxes */
-    .boxes{
-        padding-top: 0;
+/* footer section */
+@media  screen and (max-width: 1024px)
+{
+    .footerSection{
+        text-align: center;
         .container{
-            &.flex{
-                flex-wrap: wrap;
-            }
-            .box{
-                width: 100%;
-                p{
-                    font-size: 22px;
-                }
-            }
-        }
-    }
-    /* section About */
-
-    .aboutUs{
-        .container{
-            text-align: center;
             &.flex{
                 flex-direction: column;
             }
-            img{
+            .imageText{
+              img{
                 width: 100%;
+                margin-bottom: 10px;
+              }
+              p{
+                margin-bottom: 20px;
+                font-size: 20px;
+              }
             }
-            .textParaLnkAbout{
-                p{
-                    font-size: 22px;
-                }
+            .quickLink{
+                margin-bottom: 20px;
             }
-
+            .contactInfo{
+                margin-bottom: 20px;
+            }
+            .followUs{
+                margin-bottom: 20px;
+            }
+            .newsLetter{
+                margin-bottom: 20px;
+            }
         }
     }
 }
+

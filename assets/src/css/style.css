@@ -160,37 +160,29 @@ header{
   }
 }
 
+/* main seciton(boxes) */
 
-/* About section */
 
-.aboutUs{
-    padding: 50px;
+.boxes{
+     padding :50px;
+     width: 100%;
     .container{
-       
-      &.flex{
-        
-        gap: 100px;
-      }
+      
+         &.flex{
+            gap: 50px;
+           
+         }
+         .box{
+           
+            padding: 20px 0 20px 0;
+            text-align: center;
+            box-shadow: 0 0 10px var(--mainColor);            
+            i{
+                color: var(--mainColor);
+                font-size: 20px;
+            }
+         }
 
-        img{
-            width: 50%;
-        }
-        .textParaLnkAbout{
-            h2{
-                color: black;
-                font-weight: bolder;
-                font-size: 40px;
-            }
-            p{
-                
-                margin: 40px 0 40px 0;
-            }
-            a{
-            
-                padding: 10px 30px 10px 30px;
-                color: white;
-                background-color:var(--mainColor) ;
-               }
-        }
-    }
+     }
+    
 }

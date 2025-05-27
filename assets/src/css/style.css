@@ -457,8 +457,23 @@ header{
 
 /* Digital Book */
 
-
-.digitalBook{
+.digitalBook {
+    position: relative;
+    img{
+        width: 100%;
+        
+    }
+    a{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+       background-color: var(--mainColor);
+       color: white;
+       padding: 4px 6px;
+}
+    
+}
+/* .digitalBook{
     
     display: block;
     padding: 210px;
@@ -476,7 +491,7 @@ header{
         background-color:var(--mainColor) ;
         
     }
-}
+} */
 
 /* Our Blog */
 

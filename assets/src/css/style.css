@@ -574,9 +574,12 @@ header{
                 justify-content: space-between;
         }
         .imageText{
-            width: 20%;
+            width: 40%;
             img{
                 width: 20%;
+            }
+            p{
+                width: 100%;
             }
            
         }
